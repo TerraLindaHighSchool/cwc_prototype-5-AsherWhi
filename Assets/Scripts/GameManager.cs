@@ -15,12 +15,6 @@ public class GameManager : MonoBehaviour
     public bool isGameActive;
     public Button restartButton;
     public GameObject titleScreen;
-    
-
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
 
     IEnumerator SpawnTarget()
     {
@@ -49,11 +43,7 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+ 
     public void StartGame(int difficulty)
     {
         isGameActive = true;

@@ -14,7 +14,6 @@ public class Target : MonoBehaviour
     public int pointValue;
     public ParticleSystem explosionParticle;
 
-    // Start is called before the first frame update
     void Start()
     {
         targetRb = GetComponent<Rigidbody>();
@@ -60,11 +59,6 @@ public class Target : MonoBehaviour
             gameManager.GameOver();
         }
            
-        
-    }
-    // Update is called once per frame
-    void Update()
-    {
         
     }
 }
